@@ -2,7 +2,7 @@ name: CICD
 
 on:
   push:
-    branches: [pipeline]
+    branches: [deploy-to-ecs]
 
 jobs:
   build-and-deploy:
